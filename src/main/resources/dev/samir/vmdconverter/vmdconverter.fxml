@@ -51,7 +51,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Start" textAlignment="CENTER">
+      <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Let's Go" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
