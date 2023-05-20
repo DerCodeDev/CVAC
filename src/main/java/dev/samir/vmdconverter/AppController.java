@@ -122,10 +122,10 @@ public class AppController {
 
 
     private void showErrorMessage() {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Error Dialog");
-        alert.setHeaderText("Look, an Error Dialog");
-        alert.setContentText("Please fill out all fields properly.");
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Warning");
+        alert.setHeaderText("Please recheck your Input!");
+        alert.setContentText("Are you sure that you filled everything out properly? :)");
         alert.showAndWait();
     }
 
