@@ -27,12 +27,12 @@
             <Button layoutX="161.0" layoutY="81.0" mnemonicParsing="false" onAction="#outputFieldBrowseButton" prefHeight="25.0" prefWidth="68.0" text="Browse" />
             <Label layoutX="-15.0" layoutY="60.0" text="Output Directory:" textAlignment="CENTER">
                <font>
-                  <Font name="System Bold" size="12.0" />
+                  <Font name="Cascadia Code SemiBold" size="14.0" />
                </font>
             </Label>
             <Label layoutX="-15.0" layoutY="6.0" prefHeight="17.0" prefWidth="63.0" text="VMD File:" textAlignment="CENTER">
                <font>
-                  <Font name="System Bold" size="12.0" />
+                  <Font name="Cascadia Code SemiBold" size="14.0" />
                </font>
             </Label>
          </children>
