@@ -6,7 +6,7 @@ der seine Spiele auf zwei verschiedenen Enginen entwickelt hat namens DEV6 und D
 
 # Anforderungen:
 Du brauchst du nur ffmpeg
-# Wie installiere ich ffmpeg auf Windows?
+# Wie installiere ich ffmpeg unter Windows?
 1. Lade ffmpeg [herunter](https://www.gyan.dev/ffmpeg/builds/)
 2. Extrahiere die ZIP Datei (am besten auf die C: Parition)
 3. (Optional) Dann überprüfe ob alles richtig extrahiert wurde.
@@ -25,9 +25,9 @@ Du brauchst du nur ffmpeg
 
 ## Unterstütze Spiele:
 
-- Adi Jr. (DEV6)
+- Adi Jr. (1994) (DEV6)
 - Addy Junior (DEV6)
-- Addy 4
+- Addy 4 (DEV6)
 
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
@@ -93,7 +93,7 @@ Vous n'avez besoin que de ffmpeg
 
 ## Supportée Jeux
 - Adibou 1
-- Adibou 2  (DEV6)
+- Adibou 2 (DEV6)
 - Adi 4 (DEV6)
 - Adibou presente Dessin (DEV7)
 ## Bientot supportée Jeux
