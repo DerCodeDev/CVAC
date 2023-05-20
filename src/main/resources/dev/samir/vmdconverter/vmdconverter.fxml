@@ -53,10 +53,10 @@
       </Label>
       <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Start" textAlignment="CENTER">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="logs...." />
+      <TextArea fx:id="consoleLog" editable="false" disable="true" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="logs...." />
    </children>
    <effect>
       <Blend />
