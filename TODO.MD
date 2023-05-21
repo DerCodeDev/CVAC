@@ -8,4 +8,6 @@
 # General ToDo
 1. Fixing Bugs
 2. Push Releases (New Features/Bugfixes)
-3. 
+3. Improve the Converter from Feedback
+4. add COPYING / Copyright to the Repository
+5. add a License to the Repository 
