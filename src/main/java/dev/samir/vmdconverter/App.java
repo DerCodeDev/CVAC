@@ -22,7 +22,7 @@ public class App extends Application {
         stage.setResizable(false);
         stage.setTitle("VMD Converter");
         stage.setScene(scene);
-        stage.getIcons().add(new Image("https://i.ibb.co/8mg6GLm/icon.png"));
+        stage.getIcons().add(new Image("https://required.icon/insert_here.png"));
         stage.show();
     }
 
