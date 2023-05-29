@@ -1,6 +1,8 @@
 package dev.samir.vmdconverter;
 
 import dev.samir.vmdconverter.utils.ConsoleOutput;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,6 +12,7 @@ import javafx.stage.FileChooser;
 import dev.samir.vmdconverter.converter.VMDConverter;
 
 import java.io.File;
+import java.io.IOException;
 import java.io.PrintStream;
 
 
@@ -31,6 +34,9 @@ public class AppController {
 
     @FXML
     private TextArea consoleLog;
+    @FXML
+    private ComboBox<String> comboBox;
+    private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)", "Englisch (US)");
 
 
     @FXML
@@ -60,10 +66,23 @@ public class AppController {
     }
 
     @FXML
-    public void initialize() {
+    public void initialize(){
         ConsoleOutput consoleOutput = new ConsoleOutput(consoleLog);
         PrintStream consolePrintStream = new PrintStream(consoleOutput);
         System.setOut(consolePrintStream);
+        comboBox.setItems(languagesList);
+
+    }
+
+
+    @FXML
+    public void switchLanguage(final ActionEvent actionEvent) throws IOException {
+        actionEvent.consume();
+        if (comboBox.getValue().equals(languagesList.get(0))) {
+            App.setRoot("german");
+            return;
+        }
+        App.setRoot("englisch");
     }
 
 

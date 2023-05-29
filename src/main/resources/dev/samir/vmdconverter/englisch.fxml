@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.samir.vmdconverter.AppController">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="Englisch (US)" />
+      <Label layoutX="241.0" layoutY="14.0" prefHeight="38.0" prefWidth="166.0" text="VMD Converter" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="190.0" layoutY="86.0" prefHeight="114.0" prefWidth="249.0">
+         <children>
+            <TextField fx:id="inputField" editable="false" layoutX="-17.0" layoutY="24.0" prefHeight="25.0" prefWidth="166.0" />
+            <Button layoutX="161.0" layoutY="24.0" mnemonicParsing="false" onAction="#inputFieldBrowseButton" prefHeight="25.0" prefWidth="68.0" text="Browse" textAlignment="CENTER" />
+            <TextField fx:id="outputField" editable="false" layoutX="-17.0" layoutY="81.0" prefHeight="25.0" prefWidth="166.0" />
+            <Button layoutX="161.0" layoutY="81.0" mnemonicParsing="false" onAction="#outputFieldBrowseButton" prefHeight="25.0" prefWidth="68.0" text="Browse" />
+            <Label layoutX="-15.0" layoutY="60.0" text="Output Directory:" textAlignment="CENTER">
+               <font>
+                  <Font name="Cascadia Code SemiBold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="-15.0" layoutY="6.0" prefHeight="17.0" prefWidth="63.0" text="VMD File:" textAlignment="CENTER">
+               <font>
+                  <Font name="Cascadia Code SemiBold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox layoutX="190.0" layoutY="231.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
+         <children>
+            <RadioButton fx:id="rb3" mnemonicParsing="false" text="MP3" textAlignment="CENTER">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group1" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="rb4" mnemonicParsing="false" text="MP4" textAlignment="CENTER" toggleGroup="$Group1" />
+         </children>
+      </HBox>
+      <Label layoutX="177.0" layoutY="206.0" text="Convert to:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Start" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="Waiting for an VMD File..." />
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</Pane>

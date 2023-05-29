@@ -8,17 +8,26 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Locale;
 
 /**
  * JavaFX App
  */
 public class App extends Application {
 
+    private final Locale locale = Locale.getDefault();
     private static Scene scene;
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("vmdconverter"));
+
+
+        if (locale.getDisplayLanguage().equals("Deutsch")){
+            scene = new Scene(loadFXML("german"));
+
+        }else {
+            scene = new Scene(loadFXML("englisch"));
+        }
         stage.setResizable(false);
         stage.setTitle("VMD Converter");
         stage.setScene(scene);
