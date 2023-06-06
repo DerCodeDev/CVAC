@@ -1,5 +1,5 @@
 # VMD Converter für Coktel Vision Spiele (Deutsch)
-Entwickelt von DerCodeDev (Samir Ademi) & [CrystalBen](https://wiki.scummvm.org/index.php?title=User:CrystalBen) (Benjamin Funke)
+Entwickelt von DerCodeDev (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 
 Coktel Vision war ein französicher Spieleentwickler und war bekannt für seine an Addy / Addy Junior / Adiboo Spielereihen. 
 der seine Spiele auf zwei verschiedenen Enginen entwickelt hat namens DEV6 und DEV7.
