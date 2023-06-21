@@ -5,7 +5,7 @@ Coktel Vision war ein französicher Spieleentwickler und war bekannt für seine 
 der seine Spiele auf zwei verschiedenen Enginen entwickelt hat namens DEV6 und DEV7.
 
 # Anforderungen:
-Du brauchst du nur ffmpeg
+Du brauchst du nur ffmpeg und Java.
 # Wie installiere ich ffmpeg unter Windows?
 1. Lade ffmpeg [herunter](https://www.gyan.dev/ffmpeg/builds/)
 2. Extrahiere die ZIP Datei (am besten auf die C: Parition)
@@ -39,7 +39,7 @@ Coktel had back then two Engines DEV6 and DEV7.
 Developed by DerCodeDev & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 
 # Requirements:
-you only need to have ffmpeg
+you only need to have ffmpeg and Java.
 # How to install ffmpeg on Windows?
 1. Download ffmpeg [here](https://www.gyan.dev/ffmpeg/builds/)
 2. Extract the Zip File into a Folder (recommended is to extract the Folder ffmpeg to the root of your C Partiton)
@@ -72,7 +72,7 @@ Coktel Vision était francais Développeur pour Jeux. le de connu  Adi / Adibou 
 Coktel etait deux Game moteur DEV6 et DEV7
 
 # Logiciels requis:
-Vous n'avez besoin que de ffmpeg
+Vous n'avez besoin que de ffmpeg et Java.
 # Comment Installer ffmpeg sur Windows?
 1. Téléchargé ffmpeg [ici](https://www.gyan.dev/ffmpeg/builds/)
 2. extrait ZIP Fichier (Recommende: C: Parition)
