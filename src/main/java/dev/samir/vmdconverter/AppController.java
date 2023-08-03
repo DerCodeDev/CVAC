@@ -36,7 +36,8 @@ public class AppController {
     private TextArea consoleLog;
     @FXML
     private ComboBox<String> comboBox;
-    private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)", "Englisch (US)");
+    private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)",
+            "Englisch (US)","עִברִית (Hebrew)");
 
 
     @FXML
@@ -80,9 +81,11 @@ public class AppController {
         actionEvent.consume();
         if (comboBox.getValue().equals(languagesList.get(0))) {
             App.setRoot("german");
-            return;
+        }else if (comboBox.getValue().equals(languagesList.get(1))) {
+            App.setRoot("englisch");
+        }else if (comboBox.getValue().equals(languagesList.get(2))) {
+            App.setRoot("hebrew");
         }
-        App.setRoot("englisch");
     }
 
 
@@ -105,7 +108,7 @@ public class AppController {
         if (rb4.isSelected()) {
             Task<Void> conversionTask = new Task<>() {
                 @Override
-                protected Void call() throws Exception {
+                protected Void call() {
                     VMDConverter.convertVideoMP4(inputField.getText(), outputField.getText());
                     return null;
                 }
@@ -123,7 +126,7 @@ public class AppController {
         if (rb3.isSelected()) {
             Task<Void> conversionTask = new Task<>() {
                 @Override
-                protected Void call() throws Exception {
+                protected Void call() {
                     VMDConverter.convertVideoMP3(inputField.getText(), outputField.getText());
                     return null;
                 }
