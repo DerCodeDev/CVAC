@@ -28,6 +28,7 @@ Du brauchst du nur ffmpeg und Java.
 - Adi Jr. (1994) (DEV6)
 - Addy Junior (DEV6)
 - Addy 4 (DEV6)
+- Addy Buschu (DEV7)
 
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
@@ -95,7 +96,8 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Adibou 1
 - Adibou 2 (DEV6)
 - Adi 4 (DEV6)
-- Adibou presente Dessin (DEV7)
+- Adibou presente series (DEV7)
+- Adiboud'chou series (DEV7)
 ## Bientot supportée Jeux
 - Adibou 3 (DEV7)
 - Adi 5 (DEV7)
