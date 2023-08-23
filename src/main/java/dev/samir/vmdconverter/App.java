@@ -26,7 +26,7 @@ public class App extends Application {
             scene = new Scene(loadFXML("german"));
 
         }else if (locale.getDisplayLanguage().equals("Englisch")) {
-            scene = new Scene(loadFXML("englisch"));
+            scene = new Scene(loadFXML("english"));
         }else {
             scene = new Scene(loadFXML("hebrew"));
         }
