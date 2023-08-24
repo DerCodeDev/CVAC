@@ -15,7 +15,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.samir.vmdconverter.AppController">
    <children>
-      <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="Englisch (US)" />
+      <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="English (US)" />
       <Label layoutX="241.0" layoutY="14.0" prefHeight="38.0" prefWidth="166.0" text="VMD Converter" textAlignment="CENTER">
          <font>
             <Font size="18.0" />

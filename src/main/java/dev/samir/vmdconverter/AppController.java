@@ -37,7 +37,7 @@ public class AppController {
     @FXML
     private ComboBox<String> comboBox;
     private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)",
-            "Englisch (US)","עִברִית (Hebrew)");
+            "English (US)","עִברִית (Hebrew)");
 
 
     @FXML
@@ -82,7 +82,7 @@ public class AppController {
         if (comboBox.getValue().equals(languagesList.get(0))) {
             App.setRoot("german");
         }else if (comboBox.getValue().equals(languagesList.get(1))) {
-            App.setRoot("englisch");
+            App.setRoot("english");
         }else if (comboBox.getValue().equals(languagesList.get(2))) {
             App.setRoot("hebrew");
         }
