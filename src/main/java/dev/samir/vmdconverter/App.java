@@ -27,8 +27,10 @@ public class App extends Application {
 
         }else if (locale.getDisplayLanguage().equals("Englisch")) {
             scene = new Scene(loadFXML("english"));
-        }else {
+        }else if (locale.getDisplayLanguage().equals("Hebrew")) {
             scene = new Scene(loadFXML("hebrew"));
+        }else {
+            scene = new Scene(loadFXML("russian"));
         }
         stage.setResizable(false);
         stage.setTitle("VMD Converter");
