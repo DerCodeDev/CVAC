@@ -31,7 +31,7 @@ public class App extends Application {
             scene = new Scene(loadFXML("hebrew"));
         }
         stage.setResizable(false);
-        stage.setTitle("VMD Converter");
+        stage.setTitle("VMD Converter 1.3");
         stage.setScene(scene);
         stage.getIcons().add(new Image("https://required.icon/insert_here.png"));
         stage.show();
