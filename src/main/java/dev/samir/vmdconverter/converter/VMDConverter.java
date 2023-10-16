@@ -37,7 +37,7 @@ public class VMDConverter {
     }
 
 
-    public static void convertVideoMP3(String inputFilePath, String outputFilePath) {
+    public static void convertAudioMP3(String inputFilePath, String outputFilePath) {
         String input_file = inputFilePath;
         String output_file = "\"" + outputFilePath + "/" + AppController.getFilename() + ".mp3\"";
 

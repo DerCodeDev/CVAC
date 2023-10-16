@@ -127,7 +127,7 @@ public class AppController {
             Task<Void> conversionTask = new Task<>() {
                 @Override
                 protected Void call() {
-                    VMDConverter.convertVideoMP3(inputField.getText(), outputField.getText());
+                    VMDConverter.convertAudioMP3(inputField.getText(), outputField.getText());
                     return null;
                 }
             };
