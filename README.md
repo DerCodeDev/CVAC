@@ -29,6 +29,10 @@ Du brauchst du nur ffmpeg und Java.
 - Addy Junior (DEV6)
 - Addy 4 (DEV6)
 - Addy Buschu (DEV7)
+- Goblins 1
+- Gobliins 2
+- Gobliiins 3
+- Woodruff
 
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
@@ -62,6 +66,10 @@ you only need to have ffmpeg and Java.
 - AJ's World of Discovery
 - Adiboo 2 (DEV6)
 - Adi 4.0 (DEV6)
+- Goblins 1
+- Gobliins 2
+- Gobliiins 3
+- Woodruff
 
 ## Games that are supported soon:
 - Adiboo 3 (DEV7)
@@ -98,6 +106,11 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Adi 4 (DEV6)
 - Adibou presente series (DEV7)
 - Adiboud'chou series (DEV7)
+- - Goblins 1
+- Gobliins 2
+- Gobliiins 3
+- Woodruff
+  
 ## Bientot supportée Jeux
 - Adibou 3 (DEV7)
 - Adi 5 (DEV7)
