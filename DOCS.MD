@@ -1,1 +1,2 @@
-Multimedia Wiki about VMD: https://wiki.multimedia.cx/index.php/VMD
+- Multimedia Wiki about VMD: https://wiki.multimedia.cx/index.php/VMD
+- Example / Sample VMDs: https://samples.mplayerhq.hu/game-formats/sierra-vmd/
