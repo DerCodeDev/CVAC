@@ -30,13 +30,13 @@ public class App extends Application {
             case "עִברִית":
                 scene = new Scene(loadFXML("hebrew"));
                 break;
-            case "россия":
+            case "Русский":
                 scene = new Scene(loadFXML("russian"));
                 break;
         }
 
         stage.setResizable(false);
-        stage.setTitle("VMD Converter 1.3");
+        stage.setTitle("VMD Converter 1.4");
         stage.setScene(scene);
         stage.getIcons().add(new Image("https://required.icon/insert_here.png"));
         stage.show();

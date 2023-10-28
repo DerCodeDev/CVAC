@@ -20,8 +20,6 @@ public class AppController {
 
     private static String fileName;
     public Button startButton;
-    public ToggleGroup Group1;
-
     @FXML
     private TextField inputField;
 
@@ -29,17 +27,16 @@ public class AppController {
     private TextField outputField;
 
     @FXML
-    private RadioButton rb3;
+    private ComboBox<String> formatBox;
 
-    @FXML
-    private RadioButton rb4;
+    private final ObservableList<String> formatsList = FXCollections.observableArrayList("WAV (22050)", "WAV (44100)", "MP3", "MP4");
 
     @FXML
     private TextArea consoleLog;
     @FXML
     private ComboBox<String> comboBox;
     private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)",
-            "English (US)", "עִברִית (Hebrew)","Русский (RU)");
+            "English (US)", "עִברִית (Hebrew)", "Русский (RU)");
 
 
     @FXML
@@ -69,11 +66,12 @@ public class AppController {
     }
 
     @FXML
-    public void initialize(){
+    public void initialize() {
         ConsoleOutput consoleOutput = new ConsoleOutput(consoleLog);
         PrintStream consolePrintStream = new PrintStream(consoleOutput);
         System.setOut(consolePrintStream);
         comboBox.setItems(languagesList);
+        formatBox.setItems(formatsList);
 
     }
 
@@ -83,11 +81,11 @@ public class AppController {
         actionEvent.consume();
         if (comboBox.getValue().equals(languagesList.get(0))) {
             App.setRoot("german");
-        }else if (comboBox.getValue().equals(languagesList.get(1))) {
+        } else if (comboBox.getValue().equals(languagesList.get(1))) {
             App.setRoot("english");
-        }else if (comboBox.getValue().equals(languagesList.get(2))) {
+        } else if (comboBox.getValue().equals(languagesList.get(2))) {
             App.setRoot("hebrew");
-        }else if (comboBox.getValue().equals(languagesList.get(3))) {
+        } else if (comboBox.getValue().equals(languagesList.get(3))) {
             App.setRoot("russian");
         }
     }
@@ -104,16 +102,35 @@ public class AppController {
             showErrorMessage();
             return;
         }
-        if (!rb3.isSelected() && !rb4.isSelected()) {
+
+
+        if (formatBox.getSelectionModel().isEmpty()) {
             showErrorMessage();
             return;
         }
-
-        if (rb4.isSelected()) {
+        if (formatBox.getValue().equals(formatsList.get(0))) {
             Task<Void> conversionTask = new Task<>() {
                 @Override
                 protected Void call() {
-                    VMDConverter.convertVideoMP4(inputField.getText(), outputField.getText());
+                    VMDConverter.convertAudioWAV22050(inputField.getText(), outputField.getText());
+                    return null;
+                }
+            };
+            ConsoleOutput consoleOutput = new ConsoleOutput(consoleLog);
+            PrintStream consolePrintStream = new PrintStream(consoleOutput);
+            System.setOut(consolePrintStream);
+
+            Thread conversionThread = new Thread(conversionTask);
+            conversionThread.setDaemon(true);
+            conversionThread.start();
+            return;
+        }
+        if (formatBox.getValue().equals(formatsList.get(1))) {
+
+            Task<Void> conversionTask = new Task<>() {
+                @Override
+                protected Void call() {
+                    VMDConverter.convertAudioWAV44100(inputField.getText(), outputField.getText());
                     return null;
                 }
             };
@@ -125,9 +142,10 @@ public class AppController {
             conversionThread.setDaemon(true);
             conversionThread.start();
 
+
             return;
         }
-        if (rb3.isSelected()) {
+        if (formatBox.getValue().equals(formatsList.get(2))) {
             Task<Void> conversionTask = new Task<>() {
                 @Override
                 protected Void call() {
@@ -142,7 +160,23 @@ public class AppController {
             Thread conversionThread = new Thread(conversionTask);
             conversionThread.setDaemon(true);
             conversionThread.start();
+            return;
+        }
+        if (formatBox.getValue().equals(formatsList.get(3))) {
+            Task<Void> conversionTask = new Task<>() {
+                @Override
+                protected Void call() {
+                    VMDConverter.convertVideoMP4(inputField.getText(), outputField.getText());
+                    return null;
+                }
+            };
+            ConsoleOutput consoleOutput = new ConsoleOutput(consoleLog);
+            PrintStream consolePrintStream = new PrintStream(consoleOutput);
+            System.setOut(consolePrintStream);
 
+            Thread conversionThread = new Thread(conversionTask);
+            conversionThread.setDaemon(true);
+            conversionThread.start();
         }
     }
 

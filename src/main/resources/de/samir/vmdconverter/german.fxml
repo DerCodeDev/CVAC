@@ -48,14 +48,8 @@
             </font>
         </Label>
     </AnchorPane>
-    <HBox layoutX="190.0" layoutY="231.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
-        <RadioButton fx:id="rb3" mnemonicParsing="false" text="MP3" textAlignment="CENTER">
-            <toggleGroup>
-                <ToggleGroup fx:id="Group1"/>
-            </toggleGroup>
-        </RadioButton>
-        <RadioButton fx:id="rb4" mnemonicParsing="false" text="MP4" textAlignment="CENTER"
-                     toggleGroup="$Group1"/>
+    <HBox layoutX="177.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
+        <ComboBox fx:id="formatBox" prefHeight="25.0" prefWidth="198.0"/>
     </HBox>
     <Label layoutX="177.0" layoutY="206.0" text="Konvertiere zu:" textAlignment="CENTER">
         <font>

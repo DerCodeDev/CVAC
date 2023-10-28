@@ -3,10 +3,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
@@ -48,13 +46,8 @@
             </font>
         </Label>
     </AnchorPane>
-    <HBox layoutX="190.0" layoutY="231.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
-        <RadioButton fx:id="rb3" mnemonicParsing="false" text="МП3" textAlignment="CENTER">
-            <toggleGroup>
-                <ToggleGroup fx:id="Group1"/>
-            </toggleGroup>
-        </RadioButton>
-        <RadioButton fx:id="rb4" mnemonicParsing="false" text="МП4" textAlignment="CENTER" toggleGroup="$Group1"/>
+    <HBox layoutX="177.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
+        <ComboBox fx:id="formatBox" prefHeight="25.0" prefWidth="198.0"/>
     </HBox>
     <Label layoutX="177.0" layoutY="206.0" text="Перевести в:" textAlignment="CENTER">
         <font>
