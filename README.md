@@ -1,5 +1,5 @@
-# VMD Converter für Coktel Vision Spiele (Deutsch)
-Entwickelt von DerCodeDev (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
+# Coktel Vision AIO Converter für Coktel Vision Spiele (Deutsch)
+Entwickelt von [DerCodeDev](https://samir24.de) (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 
 Coktel Vision war ein französicher Spieleentwickler und war bekannt für seine an Addy / Addy Junior / Adiboo Spielereihen. 
 der seine Spiele auf zwei verschiedenen Enginen entwickelt hat namens DEV6 und DEV7.
@@ -38,10 +38,10 @@ Du brauchst du nur ffmpeg und Java.
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
 
-# VMD Converter for Coktel Vision Games (English)
+# Coktel Vision AIO Converter Converter for Coktel Vision Games (English)
 Coktel Vision was a french Game Developer, Coktel was known for the familar Adi / Adiboo Games series.
 Coktel had back then two Engines DEV6 and DEV7.
-Developed by DerCodeDev & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
+Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 
 # Requirements:
 you only need to have ffmpeg and Java.
@@ -75,8 +75,8 @@ you only need to have ffmpeg and Java.
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
 
-# VMD Converter pour Coktel Vision Jeux (Français)
-Développé par DerCodeDev (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
+# Coktel Vision AIO Converter pour Coktel Vision Jeux (Français)
+Développé par [DerCodeDev](https://samir24.de) (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 Coktel Vision était francais Développeur pour Jeux. le de connu  Adi / Adibou Jeux series devlopee a.
 Coktel etait deux Game moteur DEV6 et DEV7
 
