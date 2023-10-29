@@ -19,12 +19,6 @@
     </effect>
     <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0"
               promptText="Русский (RU)"/>
-    <Label layoutX="241.0" layoutY="14.0" prefHeight="38.0" prefWidth="166.0" text="Конвертер VMD"
-           textAlignment="CENTER">
-        <font>
-            <Font size="18.0"/>
-        </font>
-    </Label>
     <AnchorPane layoutX="190.0" layoutY="86.0" prefHeight="114.0" prefWidth="249.0">
         <TextField fx:id="inputField" editable="false" layoutX="-17.0" layoutY="24.0" prefHeight="25.0"
                    prefWidth="166.0"/>
