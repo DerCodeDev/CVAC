@@ -43,12 +43,19 @@ public class AppController {
     public void inputFieldBrowseButton(final ActionEvent actionEvent) {
         actionEvent.consume();
         final FileChooser fileChooser = new FileChooser();
-        fileChooser.setTitle("Select your VMD File!");
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("VMD File (*.vmd)", "*.vmd"));
+        fileChooser.setTitle("Select your File!");
+        // Filter here for the allowed File extensions
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Video Media Data (*.vmd)", "*.vmd"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("IMD File (*.imd)", "*.imd"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("DAT File (*.dat)", "*.dat"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("STB File (*.stb)", "*.stb"));
         final File selectedFile = fileChooser.showOpenDialog(App.getScene().getWindow());
         if (selectedFile != null) {
             inputField.setText(selectedFile.getAbsolutePath());
             fileName = selectedFile.getName().replaceAll(".VMD", "").replace(".vmd", "");
+            fileName = selectedFile.getName().replaceAll(".IMD", "").replace(".imd", "");
+            fileName = selectedFile.getName().replaceAll(".DAT", "").replace(".dat", "");
+            fileName = selectedFile.getName().replaceAll(".STB", "").replace(".stb", "");
 
         }
     }
