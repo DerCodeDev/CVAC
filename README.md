@@ -34,6 +34,7 @@ Du brauchst du nur ffmpeg und Java.
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
 
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
@@ -72,6 +73,7 @@ you only need to have ffmpeg and Java.
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
 
 ## Games that are supported soon:
 - Adiboo 3 (DEV7)
@@ -109,10 +111,11 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Adi 2
 - Adibou presente series (DEV7)
 - Adiboud'chou series (DEV7)
-- - Goblins 1
+- Goblins 1
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
   
 ## Bientot supportée Jeux
 - Adibou 3 (DEV7)
