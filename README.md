@@ -41,7 +41,7 @@ Du brauchst du nur ffmpeg und Java.
 # Coktel Vision AIO Converter Converter for Coktel Vision Games (English)
 Coktel Vision was a french Game Developer, Coktel was known for the familar Adi / Adiboo Games series.
 Coktel had back then two Engines DEV6 and DEV7.
-Developed by [DerCodeDev](https://samir24.de) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
+Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
 
 # Requirements:
 you only need to have ffmpeg and Java.
