@@ -15,18 +15,18 @@
     <effect>
         <Blend />
     </effect>
-    <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="Deutsch (DE)" />
+    <ComboBox fx:id="comboBox" layoutX="6.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="Shqiptare (ALB)" />
     <AnchorPane layoutX="190.0" layoutY="86.0" prefHeight="114.0" prefWidth="249.0">
         <TextField fx:id="inputField" editable="false" layoutX="-17.0" layoutY="24.0" prefHeight="25.0" prefWidth="166.0" />
-        <Button layoutX="161.0" layoutY="24.0" mnemonicParsing="false" onAction="#inputFieldBrowseButton" prefHeight="25.0" prefWidth="92.0" text="Durchsuchen" textAlignment="CENTER" />
+        <Button layoutX="161.0" layoutY="24.0" mnemonicParsing="false" onAction="#inputFieldBrowseButton" prefHeight="25.0" prefWidth="92.0" text="Kërko" textAlignment="CENTER" />
         <TextField fx:id="outputField" editable="false" layoutX="-17.0" layoutY="81.0" prefHeight="25.0" prefWidth="166.0" />
-        <Button layoutX="161.0" layoutY="81.0" mnemonicParsing="false" onAction="#outputFieldBrowseButton" prefHeight="25.0" prefWidth="92.0" text="Durchsuchen" />
-        <Label layoutX="-15.0" layoutY="60.0" text="Ausgangs Ordner:" textAlignment="CENTER">
+        <Button layoutX="161.0" layoutY="81.0" mnemonicParsing="false" onAction="#outputFieldBrowseButton" prefHeight="25.0" prefWidth="92.0" text="Kërko" />
+        <Label layoutX="-15.0" layoutY="60.0" text="Dosja e daljes:" textAlignment="CENTER">
             <font>
                 <Font name="Cascadia Code SemiBold" size="14.0" />
             </font>
         </Label>
-        <Label layoutX="-15.0" layoutY="6.0" prefHeight="20.0" prefWidth="81.0" text="VMD Datei:" textAlignment="CENTER">
+        <Label layoutX="-15.0" layoutY="6.0" prefHeight="20.0" prefWidth="81.0" text="Dosje:" textAlignment="CENTER">
             <font>
                 <Font name="Cascadia Code SemiBold" size="14.0" />
             </font>
@@ -35,15 +35,15 @@
     <HBox layoutX="177.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
         <ComboBox fx:id="formatBox" prefHeight="25.0" prefWidth="198.0"/>
     </HBox>
-    <Label layoutX="177.0" layoutY="206.0" text="Konvertiere zu:" textAlignment="CENTER">
+    <Label layoutX="177.0" layoutY="206.0" text="Konverto në:" textAlignment="CENTER">
         <font>
             <Font name="System Bold" size="12.0" />
         </font>
     </Label>
-    <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Start" textAlignment="CENTER">
+    <Button fx:id="startButton" layoutX="196.0" layoutY="288.0" mnemonicParsing="false" onAction="#startButton" prefHeight="25.0" prefWidth="189.0" text="Fillojnë" textAlignment="CENTER">
         <font>
             <Font name="System Bold" size="12.0" />
         </font>
     </Button>
-    <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="Wartet auf eine Datei..." />
+    <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="Në pritje të një skedari...." />
 </Pane>
