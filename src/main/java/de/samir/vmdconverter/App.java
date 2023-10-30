@@ -38,7 +38,7 @@ public class App extends Application {
         stage.setResizable(false);
         stage.setTitle("Coktel Vision AIO Converter 1.4");
         stage.setScene(scene);
-        stage.getIcons().add(new Image("https://required.icon/insert_here.png"));
+        stage.getIcons().add(new Image("https://i.ibb.co/6n3d45Y/cvac-icon.png"));
         stage.show();
     }
 
