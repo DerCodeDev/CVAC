@@ -28,11 +28,13 @@ Du brauchst du nur ffmpeg und Java.
 - Adi Jr. (1994) (DEV6)
 - Addy Junior (DEV6)
 - Addy 4 (DEV6)
+- Addy 2
 - Addy Buschu (DEV7)
 - Goblins 1
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
 
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
@@ -66,10 +68,12 @@ you only need to have ffmpeg and Java.
 - AJ's World of Discovery
 - Adiboo 2 (DEV6)
 - Adi 4.0 (DEV6)
+- Adi 2
 - Goblins 1
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
 
 ## Games that are supported soon:
 - Adiboo 3 (DEV7)
@@ -104,12 +108,14 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Adibou 1
 - Adibou 2 (DEV6)
 - Adi 4 (DEV6)
+- Adi 2
 - Adibou presente series (DEV7)
 - Adiboud'chou series (DEV7)
-- - Goblins 1
+- Goblins 1
 - Gobliins 2
 - Gobliiins 3
 - Woodruff
+- The Last Dynasty
   
 ## Bientot supportée Jeux
 - Adibou 3 (DEV7)
