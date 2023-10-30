@@ -55,5 +55,5 @@
         </font>
     </Button>
     <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0"
-              promptText="ממתין לקובץ VMD..."/>
+              promptText="ממתין לקובץ ..."/>
 </Pane>
