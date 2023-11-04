@@ -3,20 +3,17 @@ package de.samir.vmdconverter.converter;
 
 import de.samir.vmdconverter.AppController;
 
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class VMDConverter {
 
     public static void convertVideoMP4(String inputFilePath, String outputFilePath) {
-        String output_file = "\"" + outputFilePath + "/" + AppController.getFilename() + ".mp4\"";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp4";
 
-        String command = String.format("ffmpeg -i \"%s\" -codec:d vmdvideo -preset slow -crf 20 -codec:a aac -b:a 128k -movflags +faststart %s", inputFilePath, output_file);
+        String command = String.format("ffmpeg -i %s -codec:d vmdvideo -preset slow -crf 20 -codec:a aac -b:a 128k -movflags +faststart %s", inputFilePath, output_file);
 
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+            ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
 
@@ -37,12 +34,12 @@ public class VMDConverter {
 
 
     public static void convertAudioMP3(String inputFilePath, String outputFilePath) {
-        String output_file = "\"" + outputFilePath + "/" + AppController.getFilename() + ".mp3\"";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp3";
 
-        String command = String.format("ffmpeg -i \"%s\" -vn -codec:a libmp3lame -qscale:a 2 %s", inputFilePath, output_file);
+        String command = String.format("ffmpeg -i  %s -vn -codec:a libmp3lame -qscale:a 2 %s", inputFilePath, output_file);
 
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+            ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
 
@@ -62,12 +59,12 @@ public class VMDConverter {
     }
 
     public static void convertAudioWAV22050(String inputFilePath, String outputFilePath) {
-        String output_file = "\"" + outputFilePath + "/" + AppController.getFilename() + ".wav\"";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".wav";
 
-        String command = String.format("ffmpeg -i \"%s\" -acodec pcm_s16le -ac 1 -ar 22050 %s", inputFilePath, output_file);
+        String command = String.format("ffmpeg -i %s -acodec pcm_s16le -ac 1 -ar 22050 %s", inputFilePath, output_file);
 
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+            ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s"));
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
 
@@ -89,12 +86,12 @@ public class VMDConverter {
 
 
     public static void convertAudioWAV44100(String inputFilePath, String outputFilePath) {
-        String output_file = "\"" + outputFilePath + "/" + AppController.getFilename() + ".wav\"";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".wav";
 
-        String command = String.format("ffmpeg -i \"%s\" -acodec pcm_s16le -ac 1 -ar 44100 %s", inputFilePath, output_file);
+        String command = String.format("ffmpeg -i %s -acodec pcm_s16le -ac 1 -ar 44100 %s", inputFilePath, output_file);
 
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder(command.split(" "));
+            ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s"));
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
 

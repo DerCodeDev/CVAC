@@ -52,10 +52,11 @@ public class AppController {
         final File selectedFile = fileChooser.showOpenDialog(App.getScene().getWindow());
         if (selectedFile != null) {
             inputField.setText(selectedFile.getAbsolutePath());
-            fileName = selectedFile.getName().replaceAll(".VMD", "").replace(".vmd", "");
-            fileName = selectedFile.getName().replaceAll(".IMD", "").replace(".imd", "");
-            fileName = selectedFile.getName().replaceAll(".DAT", "").replace(".dat", "");
-            fileName = selectedFile.getName().replaceAll(".STB", "").replace(".stb", "");
+            fileName = selectedFile.getName()
+                    .replaceAll("(?i).vmd", "")
+                    .replaceAll("(?i).imd", "")
+                    .replaceAll("(?i).dat", "")
+                    .replaceAll("(?i).stb", "");
 
         }
     }
