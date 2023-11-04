@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.samir.vmdconverter.AppController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.samir.vmdconverter.AppController">
     <effect>
         <Blend />
     </effect>
@@ -33,7 +33,7 @@
         </Label>
     </AnchorPane>
     <HBox layoutX="177.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" spacing="60.0">
-        <ComboBox fx:id="formatBox" prefHeight="25.0" prefWidth="198.0"/>
+        <ComboBox fx:id="formatBox" prefHeight="25.0" prefWidth="198.0" />
     </HBox>
     <Label layoutX="177.0" layoutY="206.0" text="Konverto në:" textAlignment="CENTER">
         <font>
@@ -46,4 +46,5 @@
         </font>
     </Button>
     <TextArea fx:id="consoleLog" editable="false" layoutX="66.0" layoutY="345.0" prefHeight="272.0" prefWidth="469.0" promptText="Në pritje të një skedari...." />
+   <ComboBox fx:id="comboBox1" layoutX="443.0" layoutY="2.0" onAction="#switchLanguage" prefWidth="150.0" promptText="VMD" />
 </Pane>
