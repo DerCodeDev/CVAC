@@ -1,3 +1,4 @@
 - Multimedia Wiki about VMD: https://wiki.multimedia.cx/index.php/VMD
 - Example / Sample VMDs: https://samples.mplayerhq.hu/game-formats/sierra-vmd/
 - C Source file of ffmpeg's VMD: https://github.com/FFmpeg/FFmpeg/blob/master/libavformat/sierravmd.c
+- Doc about VMD from Anthonylarme: https://anthonylarme.tripod.com/phantas/phcheats.html
