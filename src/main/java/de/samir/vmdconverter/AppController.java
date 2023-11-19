@@ -45,7 +45,7 @@ public class AppController {
         final FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Select your File!");
         // Filter here for the allowed File extensions
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Video Media Data (*.vmd)", "*.vmd"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Video and Music Data (*.vmd)", "*.vmd"));
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("IMD File (*.imd)", "*.imd"));
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("DAT File (*.dat)", "*.dat"));
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("STB File (*.stb)", "*.stb"));
