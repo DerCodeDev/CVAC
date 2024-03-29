@@ -37,3 +37,9 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+
+# Custom CVAC stuff
+*.vmd
+*.imd
+*.stb
+*.dat
