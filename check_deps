@@ -13,13 +13,12 @@ check_command() {
     print_debug_info "$desc found at $(command -v "$cmd")"
 }
 
-echo "Configuring your system..."
+echo "Checking if all Components for CVAC are available.."
 
 # Log Component information
 print_debug_info "Component information:"
-print_debug_info "$(ffmpeg --version | head -n 1)"
 print_debug_info "$(java --version | head -n 1)"
-  
+
 # Check for the presence of essential commands
 check_command ffmpeg "ffmpeg"
 check_command java "ffmpeg"
