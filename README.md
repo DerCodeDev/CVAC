@@ -47,7 +47,7 @@ Du brauchst du nur ffmpeg und Java.
 - Shivers 2: Harvest of Souls
 - SWAT
 - Torin's Passage
-
+- Space Quest 6
 
 ## Bald unterstützte Spiele: (Coktel Vision)
 - Adiboo 3 (DEV7)
@@ -102,6 +102,7 @@ You only need to have ffmpeg and Java.
 - Shivers 2: Harvest of Souls
 - SWAT
 - Torin's Passage
+- Space Quest 6
 
 ## Games that are supported soon: (Coktel Vision)
 - Adiboo 3 (DEV7)
@@ -159,6 +160,7 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Shivers 2: Harvest of Souls
 - SWAT
 - Torin's Passage
+- Space Quest 6
   
 ## Bientot supportée Jeux: (Coktel Vision)
 - Adibou 3 (DEV7)
