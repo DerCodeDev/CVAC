@@ -82,6 +82,31 @@ public class VMDConverter {
         }
     }
 
+        public static void convertPictureWEBM(String inputFilePath, String outputFilePath) {
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp3";
+
+        String command = String.format("ffmpeg -i  %s -vn -codec:a libopus -qscale:a 2 %s", inputFilePath, output_file);
+
+        try {
+            ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
+            processBuilder.redirectErrorStream(true);
+            Process process = processBuilder.start();
+
+            InputStream inputStream = process.getInputStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+
+            int exitCode = process.waitFor();
+            System.out.println("FFmpeg command execution completed with exit code: " + exitCode);
+
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void convertAudioWAV44100(String inputFilePath, String outputFilePath) {
         String output_file = outputFilePath + File.separator + AppController.getFilename() + ".wav";
 
