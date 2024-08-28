@@ -25,7 +25,6 @@ Du brauchst du nur ffmpeg und Java.
 3. Diese Ausgabe sollte angezeigt werden: ffmpeg version und dann die Versionsnummer
 
 ## Unterstütze Spiele: (Coktel Vision)
-
 - Adi Jr. (1994) (DEV6)
 - Addy Junior (DEV6)
 - Addy 4 (DEV6)
@@ -36,6 +35,19 @@ Du brauchst du nur ffmpeg und Java.
 - Gobliiins 3
 - Woodruff
 - The Last Dynasty
+
+## Unterstütze Spiele: (Sierra)
+- Betrayal in Antara
+- Gabriel Knight 2: The Beast Within
+- Leisure Suite Larry 7
+- Lighthouse
+- Phantasmagoria
+- RAMA
+- Shivers
+- Shivers 2: Harvest of Souls
+- SWAT
+- Torin's Passage
+
 
 ## Bald unterstützte Spiele: (Coktel Vision)
 - Adiboo 3 (DEV7)
@@ -78,6 +90,18 @@ You only need to have ffmpeg and Java.
 - Gobliiins 3
 - Woodruff
 - The Last Dynasty
+
+## Supported Games: (Sierra)
+- Betrayal in Antara
+- Gabriel Knight 2: The Beast Within
+- Leisure Suite Larry 7
+- Lighthouse
+- Phantasmagoria
+- RAMA
+- Shivers
+- Shivers 2: Harvest of Souls
+- SWAT
+- Torin's Passage
 
 ## Games that are supported soon: (Coktel Vision)
 - Adiboo 3 (DEV7)
@@ -123,6 +147,18 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Gobliiins 3
 - Woodruff
 - The Last Dynasty
+
+## Supportée Jeux: (Sierra)
+- Betrayal in Antara
+- Gabriel Knight 2: The Beast Within
+- Leisure Suite Larry 7
+- Lighthouse
+- Phantasmagoria
+- RAMA
+- Shivers
+- Shivers 2: Harvest of Souls
+- SWAT
+- Torin's Passage
   
 ## Bientot supportée Jeux: (Coktel Vision)
 - Adibou 3 (DEV7)
