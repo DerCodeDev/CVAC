@@ -1,6 +1,7 @@
 package de.samir.vmdconverter;
 
 import de.samir.vmdconverter.converter.VMDConverter;
+//import de.samir.vmdconverter.converter.STBConverter; // Make sure first its working properly
 import de.samir.vmdconverter.utils.ConsoleOutput;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
