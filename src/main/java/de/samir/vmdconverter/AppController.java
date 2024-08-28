@@ -29,7 +29,7 @@ public class AppController {
     @FXML
     private ComboBox<String> formatBox;
 
-    private final ObservableList<String> formatsList = FXCollections.observableArrayList("WAV (22050)", "WAV (44100)", "MP3", "MP4");
+    private final ObservableList<String> formatsList = FXCollections.observableArrayList("WAV (22050)", "WAV (44100)", "MP3", "MP4", "OGG", "WEBM", "PNG");
 
     @FXML
     private TextArea consoleLog;
