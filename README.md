@@ -41,6 +41,7 @@ Du brauchst du nur ffmpeg und Java.
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
 - Addy Buschu (DEV7)
+- English Fever (DEV7)
 
 # Coktel Vision AIO Converter Converter for Coktel Vision Games (English)
 Coktel Vision was a french Game Developer, Coktel was known for the familar Adi / Adiboo Games series.
@@ -83,6 +84,7 @@ You only need to have ffmpeg and Java.
 - Addy 5 (DEV7)
 - The Land of Magic Stones (DEV7)
 - Nathan Vacances (DEV7)
+- English Fever (DEV7)
 
 # Coktel Vision AIO Converter pour Coktel Vision Jeux (Français)
 Développé par [DerCodeDev](https://samir24.de) (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
