@@ -40,6 +40,7 @@ Du brauchst du nur ffmpeg und Java.
 ## Bald unterstützte Spiele:
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
+- Addy Buschu (DEV7)
 
 # Coktel Vision AIO Converter Converter for Coktel Vision Games (English)
 Coktel Vision was a french Game Developer, Coktel was known for the familar Adi / Adiboo Games series.
@@ -80,6 +81,8 @@ you only need to have ffmpeg and Java.
 ## Games that are supported soon:
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
+- The Land of Magic Stones (DEV7)
+- Nathan Vacances (DEV7)
 
 # Coktel Vision AIO Converter pour Coktel Vision Jeux (Français)
 Développé par [DerCodeDev](https://samir24.de) (Samir Ademi) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
@@ -123,4 +126,6 @@ Vous n'avez besoin que de ffmpeg et Java.
 ## Bientot supportée Jeux
 - Adibou 3 (DEV7)
 - Adi 5 (DEV7)
+- Adiboud'chou series (DEV7)
 - Le Pays des Pierres Magiques (DEV7)
+- Nathan Vacances
