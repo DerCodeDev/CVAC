@@ -32,7 +32,6 @@ public class VMDConverter {
         }
     }
 
-
     public static void convertAudioMP3(String inputFilePath, String outputFilePath) {
         String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp3";
 
@@ -82,8 +81,6 @@ public class VMDConverter {
             e.printStackTrace();
         }
     }
-
-
 
     public static void convertAudioWAV44100(String inputFilePath, String outputFilePath) {
         String output_file = outputFilePath + File.separator + AppController.getFilename() + ".wav";
