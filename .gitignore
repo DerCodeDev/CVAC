@@ -38,8 +38,19 @@ build/
 .DS_Store
 /.idea/
 
-# Custom CVAC stuff
+# Coktel Vision game assets formats
 *.vmd
 *.imd
 *.stb
 *.dat
+
+# Video formats
+*.mp4
+
+# Picture formats
+*.png
+
+# Audio formats
+*.wav
+*.mp3
+
