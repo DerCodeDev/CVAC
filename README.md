@@ -24,7 +24,7 @@ Du brauchst du nur ffmpeg und Java.
 2. Nach der Installation gebe ffmpeg -version ein
 3. Diese Ausgabe sollte angezeigt werden: ffmpeg version und dann die Versionsnummer
 
-## Unterstütze Spiele:
+## Unterstütze Spiele: (Coktel Vision)
 
 - Adi Jr. (1994) (DEV6)
 - Addy Junior (DEV6)
@@ -37,7 +37,7 @@ Du brauchst du nur ffmpeg und Java.
 - Woodruff
 - The Last Dynasty
 
-## Bald unterstützte Spiele:
+## Bald unterstützte Spiele: (Coktel Vision)
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
 - Addy Buschu (DEV7)
@@ -49,7 +49,7 @@ Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm
 Sierra's VMD's are working aswell with CVAC.
 
 # Requirements:
-you only need to have ffmpeg and Java.
+You only need to have ffmpeg and Java.
 # How to install ffmpeg on Windows?
 1. Download ffmpeg [here](https://www.gyan.dev/ffmpeg/builds/)
 2. Extract the Zip File into a Folder (recommended is to extract the Folder ffmpeg to the root of your C Partiton)
@@ -67,7 +67,7 @@ you only need to have ffmpeg and Java.
 2. after the Installation test if ffmpeg was installed sucessfully via ffmpeg -version
 3. you should get some output like: ffmpeg version and then your versionnumber
 
-## Supported Games:
+## Supported Games: (Coktel Vision)
 - AJ's World of Discovery
 - Adiboo 2 (DEV6)
 - Adi 4.0 (DEV6)
@@ -78,7 +78,7 @@ you only need to have ffmpeg and Java.
 - Woodruff
 - The Last Dynasty
 
-## Games that are supported soon:
+## Games that are supported soon: (Coktel Vision)
 - Adiboo 3 (DEV7)
 - Addy 5 (DEV7)
 - The Land of Magic Stones (DEV7)
@@ -109,8 +109,7 @@ Vous n'avez besoin que de ffmpeg et Java.
 2. entre maintenant ffmpeg -version
 3. la sortie ressemble à ceci: ffmpeg version numéro de version.
 
-
-## Supportée Jeux
+## Supportée Jeux: (Coktel Vision)
 - Adibou 1
 - Adibou 2 (DEV6)
 - Adi 4 (DEV6)
@@ -123,7 +122,7 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Woodruff
 - The Last Dynasty
   
-## Bientot supportée Jeux
+## Bientot supportée Jeux: (Coktel Vision)
 - Adibou 3 (DEV7)
 - Adi 5 (DEV7)
 - Adiboud'chou series (DEV7)
