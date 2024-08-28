@@ -83,7 +83,7 @@ public class VMDConverter {
     }
 
         public static void convertPictureWEBM(String inputFilePath, String outputFilePath) {
-        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp3";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".webm";
 
         String command = String.format("ffmpeg -i  %s -vn -codec:a libopus -qscale:a 2 %s", inputFilePath, output_file);
 
@@ -108,7 +108,7 @@ public class VMDConverter {
     }
 
         public static void convertPicturePNG(String inputFilePath, String outputFilePath) {
-        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".mp3";
+        String output_file = outputFilePath + File.separator + AppController.getFilename() + ".png";
 
         String command = String.format("ffmpeg -i  %s -filter_complex "showwavespic" -frames:v 1 %s", inputFilePath, output_file);
 
