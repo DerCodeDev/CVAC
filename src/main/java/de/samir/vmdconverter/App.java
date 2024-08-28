@@ -38,8 +38,8 @@ public class App extends Application {
         stage.setResizable(false);
         stage.setTitle("Coktel Vision AIO Converter 1.4.2");
         stage.setScene(scene);
-        stage.getIcons().add(new Image("https://i.ibb.co/6n3d45Y/cvac-icon.png"));
-        stage.show();
+        stage.getIcons().add(new Image("https://i.ibb.co/6n3d45Y/cvac-icon.png")); // TODO: Replace the Link with the Picture file itself, at best upload the Image
+        stage.show();                                                              // to the root directory of CVAC and use it for the to have an offline program.
     }
 
     static void setRoot(String fxml) throws IOException {
