@@ -128,4 +128,4 @@ Vous n'avez besoin que de ffmpeg et Java.
 - Adi 5 (DEV7)
 - Adiboud'chou series (DEV7)
 - Le Pays des Pierres Magiques (DEV7)
-- Nathan Vacances
+- Nathan Vacances (DEV7)
