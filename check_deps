@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Function to log debug info to console
+print_debug_info() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1"
+}
+
+# Check for the presence of required commands or utilities
+check_command() {
+    local cmd=$1
+    local desc=$2
+    command -v "$cmd" >/dev/null 2>&1 || { print_debug_info "$desc is required or may be needed but not found."; return 1; }
+    print_debug_info "$desc found at $(command -v "$cmd")"
+}
+
+echo "Configuring your system..."
+
+# Log Component information
+print_debug_info "Component information:"
+print_debug_info "$(ffmpeg --version | head -n 1)"
+print_debug_info "$(java --version | head -n 1)"
+  
+# Check for the presence of essential commands
+check_command ffmpeg "ffmpeg"
+check_command java "ffmpeg"
+
+echo "Checking Dependencies complete."
