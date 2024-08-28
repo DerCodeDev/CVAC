@@ -1,6 +1,5 @@
 package de.samir.vmdconverter.converter;
 
-
 import de.samir.vmdconverter.AppController;
 
 import java.io.*;

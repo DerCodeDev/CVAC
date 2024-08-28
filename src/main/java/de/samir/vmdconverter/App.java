@@ -12,7 +12,7 @@ import java.util.Locale;
 
 /**
  * JavaFX App
- */
+*/
 public class App extends Application {
 
     private final Locale locale = Locale.getDefault();

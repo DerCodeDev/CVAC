@@ -15,7 +15,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
 
-
 public class AppController {
 
     private static String fileName;
@@ -37,7 +36,6 @@ public class AppController {
     private ComboBox<String> comboBox;
     private final ObservableList<String> languagesList = FXCollections.observableArrayList("Deutsch (German)",
             "English (US)", "עִברִית (Hebrew)", "Русский (RU)", "Shqiptare (ALB)");
-
 
     @FXML
     public void inputFieldBrowseButton(final ActionEvent actionEvent) {
@@ -83,7 +81,6 @@ public class AppController {
 
     }
 
-
     @FXML
     public void switchLanguage(final ActionEvent actionEvent) throws IOException {
         actionEvent.consume();
@@ -99,7 +96,6 @@ public class AppController {
             App.setRoot("albanian");
         }
     }
-
 
     @FXML
     public void startButton(final ActionEvent actionEvent) {
@@ -189,7 +185,6 @@ public class AppController {
             conversionThread.start();
         }
     }
-
 
     private void showErrorMessage() {
         Alert alert = new Alert(Alert.AlertType.ERROR);
