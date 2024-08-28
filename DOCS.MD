@@ -2,3 +2,4 @@
 - Example / Sample VMDs: https://samples.mplayerhq.hu/game-formats/sierra-vmd/
 - C Source file of ffmpeg's VMD: https://github.com/FFmpeg/FFmpeg/blob/master/libavformat/sierravmd.c
 - Doc about VMD from Anthonylarme: https://anthonylarme.tripod.com/phantas/phcheats.html
+- SCIWiki about VMD Resource: http://sciwiki.sierrahelp.com/index.php?title=VMD_Resource
