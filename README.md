@@ -11,12 +11,12 @@ Du brauchst du nur ffmpeg und Java.
 1. Lade ffmpeg [herunter](https://www.gyan.dev/ffmpeg/builds/)
 2. Extrahiere die ZIP Datei (am besten auf die C: Parition)
 3. (Optional) Dann überprüfe ob alles richtig extrahiert wurde.
-4. Nun öffene die Systemumgebungsvariablen.
+4. Nun Öffene die Systemumgebungsvariablen.
 5. Dann klicke auf Neu und gebe den Namen der Variable ein.
 6. Nun klicke auf Datei durchsuchen und suche ffmpeg.exe und wähle diese aus.
-7. dann drücke OK.
-8. dann drücke OK erneut.
-9. und nun zum allerletzen mal OK.
+7. Dann drücke OK.
+8. Dann drücke OK erneut.
+9. Einmal letztes mal OK klicken.
 10. Nun öffene die CMD und gebe ffmpeg -version ein nun sollte eine Ausgabe erfolgen: ffmpeg version Versionsnummer
 
 # Wie installiere ich ffmpeg unter Linux?
@@ -68,17 +68,15 @@ You only need to have ffmpeg and Java.
 2. Extract the Zip File into a Folder (recommended is to extract the Folder ffmpeg to the root of your C Partiton)
 3. (Optional) then check if you have in C:\ffmpeg\bin a ffmpeg.exe if so you can continue.
 4. now went to System environment variables and press on Environmentvariables.
-5.  then press on New at the Section variables.
+5. Then press on New at the Section variables.
 6. now under Name of Variable type ffmpeg and for Value of variable press on Browse File and search for ffmpeg.exe.
-7. then press OK.
-8. then press OK again.
-9. and then for the very last time press OK.
-10. now open a cmd and type fffmpeg -version, to check if it works now. you should get some output like:  ffmpeg version and then the versionumber.
+7. then press OK twice.
+8. Now open a cmd and type fffmpeg -version, to check if it works now. you should get some output like:  ffmpeg version and then the versionumber.
 
 # How to install ffmpeg under Linux?
-1. open a Terminal and write sudo apt install ffmpeg -y
-2. after the Installation test if ffmpeg was installed sucessfully via ffmpeg -version
-3. you should get some output like: ffmpeg version and then your versionnumber
+1. Open a Terminal and write sudo apt install ffmpeg -y
+2. After the Installation test if ffmpeg was installed sucessfully via ffmpeg -version
+3. You should get some output like: ffmpeg version and then your versionnumber
 
 ## Supported Games: (Coktel Vision)
 - AJ's World of Discovery
@@ -121,18 +119,18 @@ Les VMD de Sierra fonctionnent également avec CVAC.
 Vous n'avez besoin que de ffmpeg et Java.
 # Comment Installer ffmpeg sur Windows?
 1. Téléchargé ffmpeg [ici](https://www.gyan.dev/ffmpeg/builds/)
-2. extrait ZIP Fichier (Recommende: C: Parition)
+2. Extrait ZIP Fichier (Recommende: C: Parition)
 3. (en option) maintenant vérifier le Fichier correctement extrait.
 4. maintenant lancer System Environnement Variable.
 5. Cliquez sur Nouvelle et entrer de Nom le de Variable a.
 6. Cliquez sur Parcourir le fichier et rechercher ffmpeg.exe choisir de maintenant le exe de.
 7. Cliquez sur OK.
 8. Cliquez sur OK en nouveau.
-9. et maintenant cliquez sur OK pour la dernière fois.
+9. Et maintenant cliquez sur OK pour la dernière fois.
 10. Le lancer cmd entrer ffmpeg -version sortir comme: ffmpeg version numéro de version.
 
 # Comment Installer ffmpeg sur Linux?
-1. lancer Terminal and write sudo apt install ffmpeg -y
+1. Lancer Terminal and write sudo apt install ffmpeg -y
 2. entre maintenant ffmpeg -version
 3. la sortie ressemble à ceci: ffmpeg version numéro de version.
 
