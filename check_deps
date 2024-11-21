@@ -21,6 +21,6 @@ print_debug_info "$(java --version | head -n 1)"
 
 # Check for the presence of essential commands
 check_command ffmpeg "ffmpeg"
-check_command java "ffmpeg"
+check_command java "java"
 
 echo "Checking Dependencies complete."
