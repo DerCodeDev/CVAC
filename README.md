@@ -6,7 +6,7 @@ der seine Spiele auf zwei verschiedenen Enginen entwickelt hat namens DEV6 und D
 Sierra's VMD's funktionieren ebenfalls mit CVAC.
 
 # Anforderungen:
-Du brauchst du nur ffmpeg und Java.
+Du brauchst du nur ffmpeg und Python.
 # Wie installiere ich ffmpeg unter Windows?
 1. Lade ffmpeg [herunter](https://www.gyan.dev/ffmpeg/builds/)
 2. Extrahiere die ZIP Datei (am besten auf die C: Parition)
@@ -62,7 +62,7 @@ Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm
 Sierra's VMD's are working aswell with CVAC.
 
 # Requirements:
-You only need to have ffmpeg and Java.
+You only need to have ffmpeg and Python.
 # How to install ffmpeg on Windows?
 1. Download ffmpeg [here](https://www.gyan.dev/ffmpeg/builds/)
 2. Extract the Zip File into a Folder (recommended is to extract the Folder ffmpeg to the root of your C Partiton)
@@ -71,7 +71,7 @@ You only need to have ffmpeg and Java.
 5. Then press on New at the Section variables.
 6. now under Name of Variable type ffmpeg and for Value of variable press on Browse File and search for ffmpeg.exe.
 7. then press OK twice.
-8. Now open a cmd and type fffmpeg -version, to check if it works now. you should get some output like:  ffmpeg version and then the versionumber.
+8. Now open a cmd and type fffmpeg -version, to check if it works now. you should get some output like: ffmpeg version and then the versionumber.
 
 # How to install ffmpeg under Linux?
 1. Open a Terminal and write sudo apt install ffmpeg -y
@@ -116,7 +116,7 @@ Coktel etait deux Game moteur DEV6 et DEV7.
 Les VMD de Sierra fonctionnent également avec CVAC.
 
 # Logiciels requis:
-Vous n'avez besoin que de ffmpeg et Java.
+Vous n'avez besoin que de ffmpeg et Python.
 # Comment Installer ffmpeg sur Windows?
 1. Téléchargé ffmpeg [ici](https://www.gyan.dev/ffmpeg/builds/)
 2. Extrait ZIP Fichier (Recommende: C: Parition)
