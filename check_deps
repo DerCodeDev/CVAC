@@ -17,10 +17,10 @@ echo "Checking if all Components for CVAC are available.."
 
 # Log Component information
 print_debug_info "Component information:"
-print_debug_info "$(java --version | head -n 1)"
+print_debug_info "$(python3 --version | head -n 1)"
 
 # Check for the presence of essential commands
 check_command ffmpeg "ffmpeg"
-check_command java "java"
+check_command python3 "python3"
 
 echo "Checking Dependencies complete."
