@@ -1,9 +1,14 @@
 # Coktel Vision AIO Converter
-Coktel Vision was a french Game Developer, Coktel was known for the familar Adi / Adiboo Games series.
-Coktel had back then two Engines DEV6 and DEV7.
-Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke)
-Sierra's VMD's are working aswell with CVAC.
-Sierra bought Coktel Vision due their VMD Format.
+Coktel Vision was a French game developer. Coktel was known for the familiar Adi / Adiboo Games series.
+
+Coktel had back then two engines: DEV6 and DEV7.
+
+Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm.org/index.php?title=User:BJNFNE) (Benjamin Funke).
+
+Sierra's VMD's are working as well with CVAC.
+
+Sierra bought Coktel Vision due to their VMD format.
+
 
 # Requirements:
 You only need to have ffmpeg and Python.
