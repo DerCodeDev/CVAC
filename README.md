@@ -7,7 +7,7 @@ Developed by [DerCodeDev](https://samir24.de/en) & [BJNFNE](https://wiki.scummvm
 
 Sierra's VMD's are working as well with CVAC.
 
-Sierra bought Coktel Vision due to their VMD format.
+Sierra Entertainment bought Coktel Vision due to their VMD format.
 
 
 # Requirements:
@@ -15,11 +15,11 @@ You only need to have ffmpeg and Python.
 # How to install ffmpeg on Windows?
 1. Download ffmpeg [here](https://www.gyan.dev/ffmpeg/builds/)
 2. Extract the Zip File into a Folder (recommended is to extract the Folder ffmpeg to the root of your C Partiton)
-3. (Optional) then check if you have in C:\ffmpeg\bin a ffmpeg.exe if so you can continue.
-4. now went to System environment variables and press on Environmentvariables.
+3. (Optional) then check if you have in C:\ffmpeg\bin the ffmpeg.exe if so you can continue.
+4. Now went to System environment variables and press on Environmentvariables.
 5. Then press on New at the Section variables.
 6. now under Name of Variable type ffmpeg and for Value of variable press on Browse File and search for ffmpeg.exe.
-7. then press OK twice.
+7. Then press OK twice.
 8. Now open a cmd and type fffmpeg -version, to check if it works now. you should get some output like: ffmpeg version and then the versionumber.
 
 # How to install ffmpeg under Linux?
@@ -38,7 +38,7 @@ You only need to have ffmpeg and Python.
 - Woodruff
 - The Last Dynasty
 
-## Supported Games: (Sierra)
+## Supported Games: (Sierra Entertainment)
 - Betrayal in Antara
 - Gabriel Knight 2: The Beast Within
 - Leisure Suite Larry 7
